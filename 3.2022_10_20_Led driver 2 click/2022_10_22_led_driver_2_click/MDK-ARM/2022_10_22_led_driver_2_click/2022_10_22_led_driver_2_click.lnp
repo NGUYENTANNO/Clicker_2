@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"2022_10_22_led_driver_2_click\startup_stm32f407xx.o"
+"2022_10_22_led_driver_2_click\main.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_it.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_msp.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_tim.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_tim_ex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_rcc.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_rcc_ex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_flash.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_flash_ex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_flash_ramfunc.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_gpio.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_dma_ex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_dma.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_pwr.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_pwr_ex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_cortex.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal.o"
+"2022_10_22_led_driver_2_click\stm32f4xx_hal_exti.o"
+"2022_10_22_led_driver_2_click\system_stm32f4xx.o"
+--strict --scatter "2022_10_22_led_driver_2_click\2022_10_22_led_driver_2_click.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "2022_10_22_led_driver_2_click.map" -o 2022_10_22_led_driver_2_click\2022_10_22_led_driver_2_click.axf
